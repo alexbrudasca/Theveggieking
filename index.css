@@ -83,7 +83,7 @@ li:hover::after{
   transition: .3s ease;
 }
 /* responsive nav */
-@media (max-width:500px){
+@media screen and (min-width:480px) {
   .navList{
     display: none;
   }
