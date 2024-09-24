@@ -83,7 +83,7 @@ li:hover::after{
   transition: .3s ease;
 }
 /* responsive nav */
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
   .navList{
     display: none;
   }
@@ -205,7 +205,7 @@ li:hover::after{
   width: 150px;
 }
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
   .hero{
     display: flex;
     flex-direction: column;
@@ -304,7 +304,7 @@ li:hover::after{
   font-size: 1rem;
 }
 
-@media screen and (min-width:480px)  {
+@media screen and (max-width:480px)  {
   .aboutUs{
     display: flex;
     flex-direction: column;
@@ -404,7 +404,7 @@ li:hover::after{
   object-fit: cover;
 }
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
   .menu .content{
     display: flex;
     flex-direction: column;
@@ -444,7 +444,7 @@ li:hover::after{
   height: auto;
 }
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
   .imagesGrid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -521,7 +521,7 @@ li:hover::after{
 }
 
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
   .content{
     display: flex;
     flex-direction: column;
@@ -589,7 +589,7 @@ li:hover::after{
   font-size: 12px;
 }
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
   .footer .top{
     display: flex;
     flex-direction: column;
